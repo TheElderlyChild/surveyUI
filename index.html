@@ -1,0 +1,77 @@
+<head>
+    <meta charset="utf-8">
+    <link href="styles/main.css" rel="stylesheet" type="text/css">
+    <title>Survey</title>
+</head>
+<body>
+    <h1>Survey</h1>
+
+    <div>
+        <h2>Share your opinion of the UI in the <a href="https://www.wizard101.com/game">Wizard101</a> website</h2>
+        <a href="https://www.wizard101.com/game">
+            <img src="images/wiz101Preview.png" alt="Wizard101 Preview Image https://www.wizard101.com/game" width="70%">
+        </a>
+    </div>
+
+	<form id="myform" action="index.php">
+        <div class="formSection">
+            <h3> Demographics </h3>
+
+            <p class="question">How old are you?</p>
+            <p><input type="radio" name="ageRange" value="child"><label>Under 13 years old</label></p>
+            <p><input type="radio" name="ageRange" value="teen"><label>13 - 18 years old</label></p>
+            <p><input type="radio" name="ageRange" value="young adult"><label>18 - 30 years old</label></p>
+            <p><input type="radio" name="ageRange" value="middle aged"><label>30 - 45 years old</label></p>
+            <p><input type="radio" name="ageRange" value="older"><label>Above 45 years old</label></p>
+            <p><input type="radio" name="ageRange" value="none"><label>Prefer not to say</label></p>
+            
+        </div>
+
+        <div class="formSection">
+            <h3>Usability</h3>
+            <p class="question">What is the purpose of the website?</p>
+            <p><label>Purpose</label> <input type="text" name="purpose"></p>
+
+            <p class="question">How easily are you able to use the website to achieve this purpose?</p>
+            <select name="ease">
+                <option value="very easy">I can use the website very easily</option>
+                <option value="fairly easy">I can use the website fairly easily</option>
+                <option value="somewhat easy">I can somewhat easily use the website</option>
+                <option value="fairly difficult">It is fairly difficult to use the website</option>
+                <option value="very difficult">It is very difficult to use the website</option>
+            </select>
+
+            <p class="question">Which of the following features of the website can you navigate to? (Tick all that apply)</p>
+            <p><input type="checkbox" name="upcoming content" value="uppcoming content"><label>Upcoming Content</label></p>
+            <p><input type="checkbox" name="forum" value="forum"><label>Forum</label></p>
+            <p><input type="checkbox" name="guide" value="guide"><label>Offical Playing Guide</label></p>
+            <p><input type="checkbox" name="contact info" value="contact info"><label>Contact Information</label></p>
+            <p><input type="checkbox" name="download" value="download"><label>Game Download</label></p>
+
+        </div>
+
+        <div class="formSection">
+            <h3>Appearance</h3>
+
+            <p class="question">How do you feel about the design of the website? (Tick all that apply)</p>
+            <p><input type="checkbox" name="good space usage" value="good space usage"><label>The website uses space effectively</label></p>
+            <p><input type="checkbox" name="good colour scheme" value="good colour scheme"><label>The colour scheme of the website is appealing</label></p>
+            <p><input type="checkbox" name="apropriate images" value="apropriate images"><label>The images and logos are appropriate to the theme of the website</label></p>
+            <p><input type="checkbox" name="unique design" value="unique design"><label>The website looks unique</label></p>
+            <p><input type="checkbox" name="recognisable" value="recognisable"><label>I will recognise the website immediately if i see it again</label></p>
+        </div>
+
+        <div class="formSection">
+            <h3>Comments</h3>
+            <p class="question">Do you have any additional comments about the UI of the website</p>
+            <p><textarea rows = "5" cols="40" placeholder="Ways to improve the website, how you felt about the design etc"></textarea></p>
+
+        </div>
+       
+        <button id="submitButton" type="button" class="block">Submit Your Insight!</button>      
+    </form>
+        
+
+
+    <p id="signature">Site created by Wyse Ebbah</p>
+</body>
