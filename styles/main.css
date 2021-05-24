@@ -17,6 +17,17 @@ img{display:block;
 
 textarea{width: 100%;}
 
+button {
+    background-color: #C6A15B; /* Green */
+    border: none;
+    margin-left: 30px;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
 .intro{background-color: #A38560;
     padding: 30px;
     margin: 30px;}
@@ -26,6 +37,7 @@ textarea{width: 100%;}
     margin: 30px;}
 
 .question {margin-top: 50px;}
+
 
 #signature {text-align: right;}
 
